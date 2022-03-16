@@ -10,7 +10,7 @@ import { JwtModule } from "@nestjs/jwt"
     imports: [
         PassportModule,
         JwtModule.register({
-            secret: config,
+            secret: null,
         }),
     ],
 })
